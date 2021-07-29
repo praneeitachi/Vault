@@ -11,7 +11,7 @@ build:
     image_template: vault-1.2
 
 deploy:
-    context: praneeitachi/DEV
+    context: praneeitachi/master
     type: statefulset
     replicas: 1
     ingress: none
